@@ -21,9 +21,6 @@ var rootCmd = &cobra.Command{
 	Short: "tls isa command line tool for TLS",
 	Long: `tls is a command line tool for TLS.
            Mainly used for generation of x509 certificates.`,
-	Run: func(cmd *cobra.Command, args []string) {
-		// Do Stuff Here
-	},
 }
 
 func Execute() {
